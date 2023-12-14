@@ -47,7 +47,14 @@
         flex-direction: column;
     }
 
+
+    #input > input{
+        padding: 0.8vw;
+    }
     
+    #input > label{
+        font-size: 2vw;
+    }
 
     #lien_externe a {
         font-size: 12px;

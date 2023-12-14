@@ -278,12 +278,16 @@ form{
 }
 
 #input > input{
-    padding: 2vw;
+    padding: 1vw;
     border-radius: 10px;
     border: solid 2px;
     border-color: #666666;
     }
 
+    #input > label{
+        margin-top: 1vw;
+        font-size: 1vw;
+    }
 
 li{
     line-height: 5vw;
