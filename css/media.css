@@ -139,7 +139,7 @@
 
     #par_1 {
         width: 90%;
-        font-size: 25px;
+        font-size: 5vw;
     }
 
     #image_p1>img {
@@ -152,16 +152,12 @@
     #menu>img {
         height: 10vw;
         width: 10vw;
-
+        
     }
 
     footer {
         width: 100%;
 
-    }
-
-    #menu {
-        margin-left: 10px;
     }
 
     header {
@@ -170,8 +166,8 @@
     }
 
     #menu {
-        height: 130px;
-        margin-left: 15px;
+        height: 13vw;
+        width: 100%;
     }
 
     .align_elem {
