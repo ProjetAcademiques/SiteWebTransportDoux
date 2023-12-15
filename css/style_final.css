@@ -106,22 +106,22 @@ h1 {
 
 }
 
-#par_1{
+#par_1 {
     animation-duration: 5s;
     animation-name: slidein;
-  }
-  
-  @keyframes slidein {
+}
+
+@keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%;
+        margin-left: 100%;
+        width: 300%;
     }
-  
+
     to {
-      margin-left: 0%;
-      width: 100%;
+        margin-left: 0%;
+        width: 100%;
     }
-  }
+}
 
 
 #image_p1>img {
@@ -171,7 +171,8 @@ h3 {
     padding-left: 1vw;
 }
 
-.trajet, .citation {
+.trajet,
+.citation {
     padding-left: 1vw;
     font-size: 1.5vw;
 }
@@ -210,12 +211,6 @@ td {
     padding: 25px;
     font-size: 1.5vw;
 }
-
-
-
-
-
-
 
 #main_haut {
     margin-top: 100px;
