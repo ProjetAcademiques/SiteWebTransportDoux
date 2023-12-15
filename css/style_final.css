@@ -53,7 +53,6 @@ a {
 }
 
 
-
 /*header*/
 header {
     margin: 0px;
@@ -85,6 +84,8 @@ h1 {
 }
 
 /*Main*/
+
+
 #main1 {
     display: flex;
     flex-direction: row;
@@ -104,6 +105,24 @@ h1 {
     border-left: 3px solid black;
 
 }
+
+#par_1{
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
 
 #image_p1>img {
     margin-top: 3vw;
@@ -152,8 +171,7 @@ h3 {
     padding-left: 1vw;
 }
 
-.trajet,
-.citation {
+.trajet, .citation {
     padding-left: 1vw;
     font-size: 1.5vw;
 }
@@ -245,7 +263,6 @@ td {
 form {
     display: flex;
     flex-direction: column;
-
     border-radius: 10px;
     border: 4px dashed #49A66D;
     margin-left: 15px;
@@ -270,9 +287,13 @@ form {
     margin-left: 5.7143vw;
     margin-bottom: 2.8571vw;
     margin-top: 2.8571vw;
+    transition: all .5s ease;
 }
 
-
+#BT_submit:hover {
+    color: #001F3F;
+    background-color: #0c9066;
+}
 
 
 #input {
