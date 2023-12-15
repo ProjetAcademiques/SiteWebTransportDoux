@@ -8,27 +8,28 @@
 /*Spécification de la page*/
 html {
     height: 100%;
-  }
+}
 
-body{
-    
+body {
+
     margin: 0;
     padding: 0;
-    font-family:Nunito;
+    font-family: Nunito;
 }
 
 
 /*menu*/
-nav{
+nav {
     display: flex;
     flex-direction: row;
 }
 
-#menu > img {
-    height:6vw ;
+#menu>img {
+    height: 6vw;
     width: 6vw;
 }
-#menu{
+
+#menu {
     /* haut | droit | bas | gauche */
     margin: 0.5em 0.5em 0.5em 0;
     display: flex;
@@ -40,37 +41,38 @@ nav{
 
 }
 
-.lien_menu{
+.lien_menu {
     font-size: 3vw;
     margin-right: 0;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 
-a{
+a {
     color: white;
 }
 
 
 
 /*header*/
-header{
+header {
     margin: 0px;
     margin-top: 10px;
     background-position: 50% 40%;
     height: 15vw;
     width: 100%;
-    background-size: cover;    
+    background-size: cover;
 }
-.bg_head{
+
+.bg_head {
     background-image: url("./img/tramway.jpg");
 }
 
-#bg_head_p2{
+#bg_head_p2 {
     background-image: url("./img/mobile_P2.png");
 }
 
-h1{
+h1 {
     color: white;
     font-size: 3.5vw;
     width: 750px;
@@ -78,11 +80,12 @@ h1{
     margin-left: 2.5%;
 }
 
-#img_head{
-    margin :2em;
+#img_head {
+    margin: 2em;
 }
+
 /*Main*/
-#main1{
+#main1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -90,7 +93,7 @@ h1{
 
 
 
-#par_1{
+#par_1 {
     width: 50vw;
     font-size: 2vw;
     color: #60C886;
@@ -98,33 +101,33 @@ h1{
     margin-bottom: 10%;
     margin-left: 1vw;
     padding-left: 2vw;
-    border-left:3px solid black;
+    border-left: 3px solid black;
 
 }
 
-#image_p1 >img{
+#image_p1>img {
     margin-top: 3vw;
-    height:15vw ;
+    height: 15vw;
     width: 18vw;
 }
 
 
 
 
-#main_haut_p2{
+#main_haut_p2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.img_card{
+.img_card {
     height: 4vw;
     width: 4vw;
-    padding-left:1vw;
+    padding-left: 1vw;
     padding-top: 1vw;
 }
 
-.card{
+.card {
     border: 1px solid #000;
     border-radius: 25px;
     display: flex;
@@ -134,57 +137,61 @@ h1{
     margin: 2.5vw;
 }
 
-.card:hover{
+.card:hover {
     text-shadow: 0 0 0.5px;
     transition: .3s;
     transform: scale(1.1);
-    }
-
-
-
-h3{
-    margin: 0px;
-    color:#84E5A8 ;  
-    font-size: 3vw;
-    padding-left:1vw;  
 }
-.trajet , .citation{
-    padding-left:1vw;
+
+
+
+h3 {
+    margin: 0px;
+    color: #84E5A8;
+    font-size: 3vw;
+    padding-left: 1vw;
+}
+
+.trajet,
+.citation {
+    padding-left: 1vw;
     font-size: 1.5vw;
 }
 
-.citation{
+.citation {
     color: #025A22;
 }
 
 
-#Tableau h2{
+#Tableau h2 {
     text-decoration: underline;
     text-align: center;
 }
 
 
-table  {
+table {
     border: 1px solid black;
-     background-color: #60C886;
-     color:white; 
-     margin-left:auto;
-     margin-right:auto;  
-     margin-bottom: 150px;
-     margin-top: 10%;
- }
- th{
-     border: 1px solid black;
-     
-     padding: 25px;
-     font-size: 2vw;
- 
- }
- td {
-     border: 1px solid black;
-     padding: 25px;
-     font-size: 1.5vw;
- }
+    background-color: #60C886;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-top: 10%;
+}
+
+th {
+    border: 1px solid black;
+
+    padding: 25px;
+    font-size: 2vw;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 25px;
+    font-size: 1.5vw;
+}
 
 
 
@@ -192,7 +199,7 @@ table  {
 
 
 
-#main_haut{
+#main_haut {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -203,41 +210,42 @@ table  {
 
 
 /*main image page1 */
-.elem_gauche + .elem_droit{
+.elem_gauche+.elem_droit {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.elem_droit{
+.elem_droit {
     padding-right: 15%;
 }
 
-.align_elem > p{
+.align_elem>p {
     margin: 10px;
     color: #46A66D;
     justify-content: space-between;
     width: 344px;
 }
 
-.align_elem{
+.align_elem {
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
 }
-.align_elem > img {
-   width: 9vw;
-   height: 9vw;
+
+.align_elem>img {
+    width: 9vw;
+    height: 9vw;
 }
 
 /*fromulaire*/
 
 
-form{
+form {
     display: flex;
     flex-direction: column;
-    
+
     border-radius: 10px;
     border: 4px dashed #49A66D;
     margin-left: 15px;
@@ -250,24 +258,24 @@ form{
 
 
 #BT_submit {
-    border-radius: 2.2857vw;    
+    border-radius: 2.2857vw;
     background: #49A66D;
     color: white;
-    width: 14vw;             
-    height: 6vw;      
-    padding: 2.2857vw;         
-    font-size: 1.6vw;        
+    width: 14vw;
+    height: 6vw;
+    padding: 2.2857vw;
+    font-size: 1.6vw;
     text-align: center;
     border-style: none;
-    margin-left: 5.7143vw;      
-    margin-bottom: 2.8571vw;    
-    margin-top: 2.8571vw;      
+    margin-left: 5.7143vw;
+    margin-bottom: 2.8571vw;
+    margin-top: 2.8571vw;
 }
 
 
 
 
-#input{
+#input {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -277,42 +285,43 @@ form{
 
 }
 
-#input > input{
+#input>input {
     padding: 1vw;
     border-radius: 10px;
     border: solid 2px;
     border-color: #666666;
-    }
+}
 
-    #input > label{
-        margin-top: 1vw;
-        font-size: 1vw;
-    }
+#input>label {
+    margin-top: 1vw;
+    font-size: 1vw;
+}
 
-li{
+li {
     line-height: 5vw;
     color: rgba(102, 102, 102, 1);
     width: 100%;
     font-size: 1.5vw;
 }
+
 h2 {
     font-size: 2vw;
     margin-left: 2vw;
 }
 
 /*footer*/
-footer{
+footer {
     display: flex;
     flex-direction: column;
-    background-color:#404040;
+    background-color: #404040;
     width: 100%;
 }
 
-#lien_externe{
+#lien_externe {
     width: 40vw;
     height: 71px;
     padding: 20px;
-    border: 1px; 
+    border: 1px;
 }
 
 #lien_externe a {
@@ -320,7 +329,7 @@ footer{
     font-size: 1vw;
 }
 
-#logo_footer{
+#logo_footer {
     display: flex;
     width: 291px;
     height: 48px;
@@ -328,7 +337,8 @@ footer{
 
 }
 
-#footer_haut , #footer_bas{
+#footer_haut,
+#footer_bas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -336,22 +346,25 @@ footer{
     padding-left: 5%;
     padding-top: 1%;
 }
-#footer_bas > p {
+
+#footer_bas>p {
     padding-right: 15%;
     color: white;
     font-size: 1.5vw;
 }
 
-#footer_haut >img{
+#footer_haut>img {
     width: 15vw;
     height: 10vw
 }
-#logo_footer > a >img{
+
+#logo_footer>a>img {
     width: 2vw;
     height: 2vw;
 }
-footer > p{
+
+footer>p {
     color: white;
-    text-align:right;
-    padding-right:12vw;
+    text-align: right;
+    padding-right: 12vw;
 }
